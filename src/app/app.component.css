@@ -1,0 +1,125 @@
+.container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to top,
+    #ff9a9e 0%,
+    #fecfef 99%,
+    #fecfef 100%
+  );
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  width: 100vw;
+  height: 10%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo {
+  display: flex;
+  color: #ffffff;
+  margin: 10px 25px;
+  text-transform: uppercase;
+}
+.header .logo p {
+  padding-left: 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+}
+.header .logo .fire-icon {
+  font-size: 2rem;
+}
+.header .bars-icon {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 10px 25px;
+}
+.container .introduce-text {
+  padding: 0 20px;
+  text-align: center;
+  position: absolute;
+  margin-top: 85%;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+.container #terms,
+.container #privacy,
+.container #cookie {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.login-box {
+  width: 100%;
+  height: 20%;
+  margin-top: 100%;
+}
+.login-box .google-login {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 5%;
+  border: 2px solid #ffffff;
+  border-radius: 20px 20px;
+  display: flex;
+}
+.login-box .facebook-login {
+  position: absolute;
+  width: 80%;
+  height: 5%;
+  margin-top: 80px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border-radius: 20px 20px;
+  border: 2px solid #ffffff;
+}
+.login-box .phone-login {
+  position: absolute;
+  width: 80%;
+  height: 5%;
+  margin-top: 125px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border-radius: 20px 20px;
+  border: 2px solid #ffffff;
+}
+.login-box .google-login .google-icon,
+.login-box .facebook-login .facebook-icon,
+.login-box .phone-login .comment-icon {
+  color: #f7f5f4;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+.login-box .google-login a,
+.login-box .facebook-login a,
+.login-box .phone-login a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  padding-left: 5px;
+}
+.container .footer{
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 50px;
+}
