@@ -1,0 +1,58 @@
+.login-box {
+  width: 100%;
+  height: 20%;
+  margin-top: 100%;
+}
+.login-box .google-login {
+  position: absolute;
+  margin-top: 35px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 5%;
+  border: 2px solid #ffffff;
+  border-radius: 20px 20px;
+  display: flex;
+}
+.login-box .facebook-login {
+  position: absolute;
+  width: 80%;
+  height: 5%;
+  margin-top: 80px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border-radius: 20px 20px;
+  border: 2px solid #ffffff;
+}
+.login-box .phone-login {
+  position: absolute;
+  width: 80%;
+  height: 5%;
+  margin-top: 125px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border-radius: 20px 20px;
+  border: 2px solid #ffffff;
+}
+.login-box .google-login .google-icon,
+.login-box .facebook-login .facebook-icon,
+.login-box .phone-login .comment-icon {
+  color: #f7f5f4;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+.login-box .google-login a,
+.login-box .facebook-login a,
+.login-box .phone-login a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+  padding-left: 5px;
+}
