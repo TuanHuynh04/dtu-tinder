@@ -1,8 +1,8 @@
 export interface User {
   id: number;
-  picture: string;
+  avatar: string;
   age: number;
   name: string;
-  description: string;
+  status: string;
   gender: string;
 }

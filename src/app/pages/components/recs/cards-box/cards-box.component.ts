@@ -42,7 +42,6 @@ export class CardsBoxComponent implements OnInit {
 
   // tslint:disable-next-line: typedef
   startAnimation(state) {
-    alert("Swiped");
     if (!this.animationState) {
       this.animationState = state;
     }
