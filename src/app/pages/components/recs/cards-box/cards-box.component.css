@@ -1,0 +1,42 @@
+.cards-box {
+  position: fixed;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+}
+.cards-box .tinder-status {
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  pointer-events: none;
+}
+.cards-box .tinder-cards {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+.cards-box .tinder-cards .tinder-card {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: #f8e8e8;
+  border-radius: 15px 20px;
+  overflow: hidden;
+  position: absolute;
+  /* will-change: transform; */
+  transition: all 0.3s ease-in-out;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
+}

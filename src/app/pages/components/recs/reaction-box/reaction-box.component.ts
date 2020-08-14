@@ -12,4 +12,8 @@ export class ReactionBoxComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  cardAnimation(action: String) {
+      
+  }
+
 }

@@ -14,3 +14,4 @@ import { ButtonBoxComponent } from './components/login/button-box/button-box.com
   ]
 })
 export class AuthModule { }
+
